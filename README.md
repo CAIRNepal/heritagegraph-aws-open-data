@@ -70,7 +70,7 @@ print(len(g), "triples")
 ```
 
 See the
-[Get to Know the HeritageGraph KG tutorial](https://github.com/CAIRNepal/heritagegraphontology/blob/main/aws-open-data/get-to-know-the-heritagegraph-kg.ipynb)
+[Get to Know the HeritageGraph KG tutorial](https://github.com/CAIRNepal/heritagegraph-aws-open-data/blob/main/get-to-know-the-heritagegraph-kg.ipynb)
 on GitHub, or the
 [Registry of Open Data on AWS](https://registry.opendata.aws/heritagegraph)
 entry once published.
