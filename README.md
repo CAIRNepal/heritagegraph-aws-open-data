@@ -1,10 +1,9 @@
-# HeritageGraph — A Knowledge Graph of Nepal's Cultural Heritage
+# HeritageGraph: Open Knowledge Graph Dataset for Cultural Heritage
 
-HeritageGraph is an RDF knowledge graph of Nepal's **tangible and intangible
-cultural heritage**, built on the CIDOC-CRM–aligned
-[HeritageGraph ontology](https://cairnepal.github.io/heritagegraphontology/) and populated from
-trusted open sources. Every entity carries machine-readable **provenance** and a
-link back to its source. No synthetic data is used.
+HeritageGraph is an RDF knowledge graph of Nepal’s tangible and intangible cultural heritage, built on the CIDOC-CRM-aligned [HeritageGraph ontology](https://cairnepal.github.io/heritagegraphontology/) and populated from trusted open sources. It includes heritage sites, monuments, temples, stupas, monasteries, traditional stone water spouts, festivals, masked dances, Guthi institutions, deities, ritual roles, and syncretic relationships. Each entity includes machine-readable provenance, and where available, links to Wikidata and OpenStreetMap. The data is published as RDF Turtle in source-specific named graphs, validated against SHACL shapes, and contains no synthetic data. 
+
+Every entity carries machine-readable **provenance** and a link back to its source.
+
 
 ## What's in the bucket
 
