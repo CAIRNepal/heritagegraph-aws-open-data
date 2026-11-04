@@ -1,0 +1,7 @@
+# Dependencies for get-to-know-a-dataset.ipynb
+boto3>=1.34.0
+rdflib>=7.0.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+# to run the notebook interactively:
+jupyterlab>=4.0.0

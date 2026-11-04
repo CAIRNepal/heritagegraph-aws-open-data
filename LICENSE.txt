@@ -1,59 +1,18 @@
-HeritageGraph Knowledge Graph — Licensing
-==========================================
+HeritageGraph: Open Knowledge Graph Dataset for Cultural Heritage
+Copyright (c) 2026 CAIR-Nepal (https://cair-nepal.org)
 
-The HeritageGraph KG combines data from multiple open sources. To keep
-licensing unambiguous, each source is published as a SEPARATE named-graph file
-under kg/ and is governed by the license of its source. Redistribution must
-preserve the attribution and license terms below.
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International
+licence (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+Full legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
---------------------------------------------------------------------------
-kg/wikidata.ttl
-  Source : Wikidata (https://www.wikidata.org/)
-  License: Creative Commons CC0 1.0 Universal (public domain dedication)
-           https://creativecommons.org/publicdomain/zero/1.0/
+You may share and adapt the material, including commercially, provided you give
+appropriate credit, indicate if changes were made, and distribute your
+contributions under the same licence.
 
-kg/unesco.ttl
-  Source : UNESCO World Heritage Centre (https://whc.unesco.org/)
-  Note   : Factual World Heritage inscription data. Attribute the UNESCO
-           World Heritage Centre.
-
-kg/intangible.ttl
-  Source : Curated by CAIR-Nepal from Wikidata (CC0), UNESCO, and published
-           scholarship (Slusser; Toffin; Gellner; Locke) and the Nepal
-           Heritage Documentation Project.
-  License: Creative Commons Attribution 4.0 International (CC BY 4.0)
-           https://creativecommons.org/licenses/by/4.0/
-
-kg/osm.ttl
-  Source : OpenStreetMap (https://www.openstreetmap.org/)
-  License: Open Database License (ODbL) v1.0
-           https://opendatacommons.org/licenses/odbl/1-0/
-  Attribution: "© OpenStreetMap contributors"
-  IMPORTANT: ODbL is a share-alike license. Any database derived from
-           kg/osm.ttl (including a combined graph that incorporates it) must
-           be made available under ODbL with the above attribution. The
-           CC0/CC-BY layers (kg/wikidata.ttl, kg/unesco.ttl, kg/intangible.ttl)
-           may be used independently of the OSM layer.
-
-kg/crosswalk.ttl
-  Mixed-provenance linking layer (owl:sameAs / skos:altLabel). Each link
-  inherits the license of the source it references.
-
-kg/intangible_crosswalk.ttl
-  Mixed-provenance linking layer for the intangible heritage subgraph
-  (owl:sameAs / extra typing). Each link inherits the license of the source
-  it references.
---------------------------------------------------------------------------
-
-Schema (ontology/)
-  The HeritageGraph ontology and SHACL shapes are published at
-  https://cairnepal.github.io/heritagegraphontology/ and released under CC BY 4.0.
-
-Instance identifiers are minted under https://data.cair-nepal.org/heritagegraph/.
-
---------------------------------------------------------------------------
-Maintained by CAIR-Nepal (Center for Artificial Intelligence Research, Nepal)
-Website: https://cair-nepal.org   Contact: info@cair-nepal.org
---------------------------------------------------------------------------
-
-
+Source and attribution
+----------------------
+The monument records, descriptions and images from which the Nepal release of HeritageGraph is
+built are the work of the Digital Archive of Nepalese Arts and Monuments (DANAM),
+Heidelberg University (https://danam.cats.uni-heidelberg.de). Every monument in the
+graph links to the DANAM page it was derived from. Credit DANAM as the source of
+the content and CAIR-Nepal for the knowledge graph.
